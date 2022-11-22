@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 225px;
+  font-family: "Ubuntu", sans-serif;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 0 black;
+  cursor: pointer;
+}
+
+.card--image {
+  height: 175px;
+  width: 150px;
+}
+
+h3 {
+  padding-top: 25px;
+  font-size: 16px;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.add--button {
+  background: none;
+  font-size: 16px;
+  margin-top: 8px;
+  font-family: "Ubuntu", sans-serif;
+  cursor: pointer;
+}
