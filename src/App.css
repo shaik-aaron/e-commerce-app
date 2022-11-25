@@ -14,25 +14,33 @@
   margin-right: 75px;
 }
 
+img {
+  height: 75px;
+  width: 150px;
+}
+
 .navbar--link:hover {
   opacity: 0.65;
 }
 
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   height: 75px;
   width: 100%;
   font-family: "Ubuntu", sans-serif;
-  border-bottom: 5px solid black;
   text-decoration: none;
+  position: fixed;
+  top: 0;
+  background-color: #e9ebf8;
 }
 
 .shopping--cart {
   font-size: 36px;
   margin-right: 10px;
   text-decoration: none;
+  margin-left: 40px;
 }
 
 .cart--button {
